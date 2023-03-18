@@ -1,0 +1,28 @@
+Pricing Model
+    4 Types
+        * Reserved Instances
+            Sub Pricing Model
+                * 1 Year
+                     1 Y  Full Upfront 
+                     1 Y Partial Upfront
+                     1 Year No Upfront
+                * 3 Year
+                     3 Y  Full Upfront
+                     3 Y Partial Upfront
+                     3 Year No Upfront
+                
+                * Convertable Reserved - Can be switched fro Memory Optmized to Perfomance Optimized
+                * Scheduled Reserved - Can set schedule for convertion of instances based on its type (Schools - Can be scheduled 8-16 time and Mon - Sat  )
+
+        * On-demand Instances
+                * Example for Online shopping sites (During the festive, offer days)
+        * Spot Instances
+                * Exmp - Store caching info, 
+        * Dedicated Instances
+                * 
+
+Reserved Instances
+  Examples - Banking Application, Online Shopping
+
+On-demand Instances
+    Examples - 

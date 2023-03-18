@@ -1,0 +1,18 @@
+NFS (EFS is used NFS technology)
+Supports Pay as you Go model
+Scales on demand, perfomance is not affected at all
+EFS Volume can be attached/mounted with multiple EC2 Instances /
+No Capacity Limitation - Scalable upto Petabyte 
+
+Security Group must be same for both EC2 Instance, Storage - Security group must allow NFS protocol
+
+EFS Creation - 
+Filesystem Name
+DNS Name (FQDN)
+
+Mount - 
+Files will be accssesible across mounted Instances
+
+
+
+

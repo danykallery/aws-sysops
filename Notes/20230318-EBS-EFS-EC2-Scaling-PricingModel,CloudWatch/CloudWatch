@@ -1,0 +1,17 @@
+CloudWatch
+
+Host Level Metrics:
+    CPU
+    NI
+    NO
+    Disk Utilization
+    Status
+            Can also set custom based metrics 
+
+* 5 Min intervals, status will be updated
+
+
+
+2 Major Issues:
+    Instance Limit Exceeded error : Every region there will be a Top limit of EC2 instances that allowed to launch. By default it is 20, and can be upgradable
+    InsufficientInstanceCapacity Error : AWS is out of the number of requested instances from the on Demand pool
