@@ -1,0 +1,90 @@
+What is VPC -
+
+What is an IP Address -
+IPv4 -  32 bits sequence of 0s and 1s. it consist 4 octet
+IPv6 - 128 bits dotted hexadecimel 
+
+Class A - Reserved for Governments 10.0.0.0
+Class B - Medium Companies 128.0.0.0
+Class C - Small Companies 192.0.0.0
+Class D - Multi Casting 224.0.0.0
+Class E - Research (Future Uses) 240.0.0.0
+
+VPC
+    2 Types - default/custom
+            
+Mandatory Components for VPC
+    + Subnets
+    + Route Tables
+    + DHCP Options Subnets
+    + Security Groups
+    + Network Access Controll sets ()
+
+    AWS Portal - Tenancy shows if a VPC is default for the Region and every account
+        + Each availability zones will be having 1 subnets 
+                    (az-1a, az-1b)
+        + Route table - Main column shows if the Route table is default for the zone
+
+
+What is CIDR(Range) - (Classless Inter Domain Routing) 
+    easiest way to find the total hosts in a Network
+
+    xx.xx.xx.xx/nn - 32 bits - nn - nn(2) (2 to the power 8)
+
+    - xx.xx.xx.xx/32 - How many IPs - 32-32=0 2 to the power of 0 = 1
+    - 0.0.0.0/0 - open to the world - or open to the internet
+
+
+    IP classification in AWS and Available IP addresses for use
+        10.0.0.0 - Netowrk
+        10.0.0.1 - VPC
+        10.0.0.2 - 
+        10.0.0.3 - 
+        10.0.0.255 - Broadcast 
+
+
+NACLs (Network Access Controll List)
+Default NACLs of every subnets allows all inbound and outbound
+Custom NACLs will denies all inbound and outbound
+
+
+NAT instances and Gateways 
+    * Internet GW allows BiDirectional  
+    * NAT Gw allows internet in a UNIDirectional way 
+            (Request made from the Private Subnet will allow to reach to the internet but From Internet if someone tries to connect a resource in the Private Subnet WILL NOT Allowed)
+
+        * NATGw will not take requests or Commands from Internet, ONLY from Private Subnet
+
+  How Private subnet Instances will communicate with Public Subnet Instances / Internet - Bastion Host / Jump Server     
+
+
+
+AWS LayOut
+
+            VPC ---- | split in Private and Public subnets 
+
+ Create VPC Network
+    Must do - Enable DNS Hostnames (Actions - Enable DNS Hostnames)
+
+    Create VPC - Enable DNS Hostnames - Create IGW - Attach IGW to VPC - Create Subnets 
+    - Route Table - Add Public Route in the route table - Attach RT to Public subnet 
+    Create 2nd RT for private subnet - Associate with Private Subnet -  
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
