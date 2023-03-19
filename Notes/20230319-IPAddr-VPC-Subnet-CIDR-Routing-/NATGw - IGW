@@ -1,0 +1,8 @@
+NAT instances and Gateways 
+    * Internet GW allows BiDirectional  
+    * NAT Gw allows internet in a UNIDirectional way 
+            (Request made from the Private Subnet will allow to reach to the internet but From Internet if someone tries to connect a resource in the Private Subnet WILL NOT Allowed)
+
+        * NATGw will not take requests or Commands from Internet, ONLY from Private Subnet
+
+  How Private subnet Instances will communicate with Public Subnet Instances / Internet - Bastion Host / Jump Server     

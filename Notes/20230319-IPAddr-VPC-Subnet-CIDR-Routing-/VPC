@@ -1,0 +1,18 @@
+What is VPC -
+
+
+
+VPC
+    2 Types - default/custom
+            
+Mandatory Components for VPC
+    + Subnets
+    + Route Tables
+    + DHCP Options Subnets
+    + Security Groups
+    + Network Access Controll sets ()
+
+    AWS Portal - Tenancy shows if a VPC is default for the Region and every account
+        + Each availability zones will be having 1 subnets 
+                    (az-1a, az-1b)
+        + Route table - Main column shows if the Route table is default for the zone

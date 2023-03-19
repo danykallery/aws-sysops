@@ -1,0 +1,21 @@
+What is an IP Address -
+IPv4 -  32 bits sequence of 0s and 1s. it consist 4 octet
+IPv6 - 128 bits dotted hexadecimel 
+
+Class A - Reserved for Governments 10.0.0.0
+Class B - Medium Companies 128.0.0.0
+Class C - Small Companies 192.0.0.0
+Class D - Multi Casting 224.0.0.0
+Class E - Research (Future Uses) 240.0.0.0
+
+
+
+
+AWS IP Classification
+
+IP classification in AWS and Available IP addresses for use
+        10.0.0.0 - Netowrk
+        10.0.0.1 - VPC
+        10.0.0.2 - 
+        10.0.0.3 - 
+        10.0.0.255 - Broadcast 

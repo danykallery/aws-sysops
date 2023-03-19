@@ -1,0 +1,7 @@
+What is CIDR(Range) - (Classless Inter Domain Routing) 
+    easiest way to find the total hosts in a Network
+
+    xx.xx.xx.xx/nn - 32 bits - nn - nn(2) (2 to the power 8)
+
+    - xx.xx.xx.xx/32 - How many IPs - 32-32=0 2 to the power of 0 = 1
+    - 0.0.0.0/0 - open to the world - or open to the internet
