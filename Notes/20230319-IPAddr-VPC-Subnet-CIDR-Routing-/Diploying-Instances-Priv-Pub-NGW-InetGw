@@ -7,4 +7,3 @@ AWS LayOut
 
     Create VPC - Enable DNS Hostnames - Create IGW - Attach IGW to VPC - Create Subnets 
     - Route Table - Add Public Route in the route table - Attach RT to Public subnet 
-    Create 2nd RT for private subnet - Associate with Private Subnet -  
