@@ -7,3 +7,16 @@ AWS LayOut
 
     Create VPC - Enable DNS Hostnames - Create IGW - Attach IGW to VPC - Create Subnets 
     - Route Table - Add Public Route in the route table - Attach RT to Public subnet 
+    Public Subnet connect to IGW - 
+
+    Associate Route Table to Subnets - (Public and Private and associte proper subnets)
+
+    Once Instances are created - Private subnet will not cmmunicate with internet because ot no NAtting has configur#End Region
+    Create Nat GW in public subnet 
+
+    Create NATGateway - Attach/Enable - Go to Private RT - add Route - 0.0.0.0/0  - NGW 
+
+
+image.png
+
+

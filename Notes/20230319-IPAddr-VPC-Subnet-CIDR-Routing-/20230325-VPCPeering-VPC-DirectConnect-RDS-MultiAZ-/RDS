@@ -1,0 +1,32 @@
+Online Transaction Processing  - OLTP
+
+What are connection Strings - 5 values
+    1, Hostnames
+    2, Database Name
+    3, Username
+    4, Password
+    5, Port
+
+Manual Backup vs Snapshots
+    * Snapshots will be deleted once resources are deleted
+    * Manual backup will remain even if resource deletes
+
+
+Read Replica Database
+    Need for internal application to reduce the load on shared DB/Main DB
+
+Multi AZ 
+Aurora Replica
+Aurora AZ 
+
+
+What is Amazon Aurora 
+
+
+    Asynchronize Replica - 
+
+
+
+    Service Username - Access credentials from the Admin
+    Service Admin - FA
+    IAM - Policy based - in terms what level of access does a user or company need
