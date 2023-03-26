@@ -1,0 +1,51 @@
+Select AUrora DB - Options are similar as RDS 
+
+    Select Engine
+
+    Select Version
+
+    Templates 
+        Prod/Test 
+
+
+    DB Identifier (Name)
+
+    Password
+
+
+    Instance Configuration
+        Memory Opt/Burstable 
+
+    Availability & DUrability
+        Multi AZ / Dont create a Aurora Replica
+
+    Connectivity 
+
+    VPC and Secutiy Group
+
+    AZ
+
+    Port
+
+    Authentication
+
+    Monitoring
+
+    DB Name (initial)
+
+    Failover Priority
+    
+    Backup
+
+    Retentional Period
+
+    Encryption 
+
+    Maintanance 
+
+    Deletion Protection
+
+
+
+
+*** Tableplus Open source is the software to connect DB's 

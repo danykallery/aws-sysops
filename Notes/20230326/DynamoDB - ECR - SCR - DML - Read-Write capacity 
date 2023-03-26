@@ -1,0 +1,40 @@
+* AWS No SQL DB - DynamoDB
+* Dynamo DB is serverless - No need of Managing loads of Computing capacity, Solid State of Storage
+
+define 2 things 
+    Read Capacity
+    Write Capacity 
+
+
+HA =  across Multi AZ 
+
+
+Eventual Consistency Read & 
+    Eventual snyc between AZ - (if main db updates and it will take 10-15 sec and it will reflect in other AZ - this is called ECR )
+    * Latency is called STALE DATA 
+
+DML - Data Manipulation Language - Create, Update, Insert and Delete (operations)
+
+
+Strong Consistency Read 
+
+Dynamo DB can increase Read&Write capacity without downtime. (Read-Write Capacity is kind of access or number of requests for Read and Write)
+
+RDS has Horizontal scaling and DynamoDB has vertical scaling and Dynamo DB no need of any downtime for scaling 
+
+
+DynamoDB Practise
+
+DynamoDB
+
+Partition Key
+
+
+Table Settings 
+    Default/custome
+
+Table class
+    Capacity Calculator 
+
+
+

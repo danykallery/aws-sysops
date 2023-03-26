@@ -1,0 +1,29 @@
+Classic LB
+Application LB
+Network LB
+
+
+Classic 
+    - It is called  brainless LB and Hardly used in these days
+    - Uses Round Robin Algorithm  (Repeatable itoratory Pattern)
+    - Health check mechanism used for Availability of the instances
+    
+Application (Application Layer)
+    - Each requests takes and redirect based on the requests types or URI 
+
+
+
+    URI - unique request Identifier 
+        https://www.amazon.de/ 
+        https://www.amazon.de/-/en/gp/browse.html?node=26208164031&ref_=gw_de_mz_exp_desk_other_fc_aucc&pf_rd_r=2RT8EG84KX0XVW7EDWEE&pf_rd_p=ae86b398-a5b5-49fe-bd2e-f3fc4d2031ab&pd_rd_r=421a7835-1c27-4e3c-b29c-f584adce4a2d&pd_rd_w=5v4Yc&pd_rd_wg=dqpEo 
+
+        * Apart from amazon.de the rest URL called URI 
+
+AWS comes with Target Group - Similar like Route Table 
+
+
+Network (Network Layer)
+    - Used for TCP Traffic
+    
+
+Autoscaling comes in if any of your LB instences are not responsive 

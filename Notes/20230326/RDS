@@ -1,0 +1,70 @@
+Search for RDS
+    * by default - 40 databases
+
+    Select DB instances - Standard/Easy create (standard) - Select engine (MySQL)
+    - Select - Show versions that szpports the Multi-AZ DB cluster - Choose engine versions
+      - Templates (Prod/dev/test/FreeTier) - Deployment Options Multi AZ / Multi DB instnace / Single DB instance
+
+     Name
+     Username
+     Password
+     Confirm Password
+
+
+     Instance Configuration
+        DB instace class
+            Standard/Memory Opt/Burstable Classes
+
+    Storage (Maximum 32TB and for Aurora 64TB)
+
+    Storage Autoscaling - Enable  (not enabled during the demo/test cases)
+        Maximum storage Threshold
+
+Connectivity
+    Dont connect to EC2 compute/ Connect EC2 
+
+Network Type
+    IPV4 / Dual Stack
+
+    VPC selection
+
+    Public Access
+        Yes/No (Most cases No - because of security reason)
+
+    VPC Security Group
+        Choose Existing / Create New
+
+
+    Database Port
+
+
+    Database Authentication
+        Pasword/Password and IAM DB auth/Password with Kerbaros
+
+
+    Monitoring
+
+
+    Additional Configuration
+        Initial DB Name
+        
+    Backups
+        Retention Period default 7 upto 35 days
+
+    Backup time
+
+    Backup replication
+
+    Maintanance 
+        Enable/Disbale Auto minor version upgrade (Enabling is not a secured or best practise - upgrade need a downtime )
+
+    Delete Protection
+        Enable/Disable
+
+
+
+    Log Exports
+
+
+
+    

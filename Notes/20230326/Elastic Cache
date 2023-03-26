@@ -1,0 +1,7 @@
+Elastic Cache
+    Simplifying / reduce load of repeated data request from the main source 
+
+    Requester ---------- Cacheing DB/Data -------------------- Main Source of DB/Data
+        * Mostly requests goes to Caching / Elastic Cache DB/Data set located on different locations unless if a request comes for a newer data - 
+
+        Once Newer data request comes, Caching DB requests this from the Main Data Source and update caching Data/DB 

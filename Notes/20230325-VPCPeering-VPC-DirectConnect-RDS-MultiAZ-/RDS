@@ -24,6 +24,13 @@ What is Amazon Aurora
 
 
     Asynchronize Replica - 
+    MySql and postgreSQL complitible RDS
+    5 Times faster than any standard MYSQL and 3 times faster than postgreSQL
+    Fully Managed by AWS RDS and which automate tasks such as: 
+        Patching, backup ... all kind of admin tasks
+
+    Self Healing
+    Self Healing storage system which can scale upto 64TB/database instances 
 
 
 
