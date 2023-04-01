@@ -1,0 +1,22 @@
+Launch Template  - Name - version - Application and OS Images  select from the current running instance / choose new template - Instance Type -
+
+Key Pair - Network settings - Subnet dont include - select SGs  - Advanced  - add on comments
+
+
+
+Create a Autoscaling Group 
+	
+	Autoscaling Group - Create New - Name  - and select Launch Template - Version Type - VPC - Select subnets Min 2 - 
+	
+	Load Balancer Choose if any LB configured (depends basis if	need)- Group Size (Desired Capacity - Minimum Capacity - Maximum Capacity) - Scaling Policy - Enable instance scale-in protection - Verify configurations - Create 
+	
+	
+		*	Once autoscaling group create option given, it will start to create new instances as mentioned in the Minimum capacity measures
+		
+       		
+		
+		
+		Create Schedule actions - 
+		
+		Dynamic scaling policy based on criterias 
+		

@@ -1,0 +1,18 @@
+Major Errors
+    4xx - indicates that it is with client side
+    5xx - server side
+
+    400
+    401
+    403
+    460 - Client timeour period is short and LB doesnt have time to respond 
+    463 - Header got breaches 
+
+
+    500 - There is a config issue in the ELB
+    502 - Badgateway - Application server close to 
+    503 - Service unavailable - under LB
+    504 - Gateway timesout
+    561 - 
+
+Overal Health 

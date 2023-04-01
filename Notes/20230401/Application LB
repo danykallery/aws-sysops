@@ -1,0 +1,8 @@
+Create Instances with Main Website + Virtual Websites - Procedures are similar as in Classic LBs
+
+While setting up Healthcheck  - Absolute path needs to given
+
+
+Forward options 
+    It distribute the traffic to both target groups
+        it is called path based routing 

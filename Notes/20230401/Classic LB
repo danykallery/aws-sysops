@@ -1,0 +1,19 @@
+Classic LB
+Setup Instances in 2 AZs with HTTP service up and running
+
+LBs are 2 types -
+    * Internet facing 
+    * Internal Ones 
+
+EC2 - LB - Legacy LB - Choose VPC - Select Interne  - Choose Subnets - 
+Select Ping Protocol - Response Timeout - Interval - Unhealthy Threshold -
+ times it send response ensure healthy status- 
+
+Add Instances - 
+
+Enable connection Draining - Scale in policy kicks in allow this much time to coolin 
+
+(Scale in - decrease instance - Scale out - increases)
+
+ 
+ PreWarmed - D
