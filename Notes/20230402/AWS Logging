@@ -1,0 +1,71 @@
+ecording or monitoring API calls - CloudTrail
+Record or monitor perfomence metrics - CloudWatch
+Record or Monitor environment and Resorces - AWS Config
+Record or monitor network Traffics - VPC Flowlogs
+
+Written to Log files
+Preventing un-authorized access
+        Using IAM Roles
+        Using IAM Groups and Policies
+        S3 Bucket Policies
+        MFA 
+
+
+Ensuring Role Based Access
+    IAM Roles, group and Policies 
+    S3 Bucket Policies
+
+Alerts Mechanism and manage any kind of changes 
+        Setting up Alerts
+            Use Cloud Trail notification
+            Config Rules
+
+Managing Changes 
+        Config Rules and Cloud Trail to monitor
+        IAM and S3 Policies 
+        Cloudtrail logs with encryption enabled
+
+AWS WAF (Web Application Firewall)
+    Monitor your HTTP/HTTPS traffic - CF, ALB, API Gateways
+
+ WAF alow 
+    - Allows all requests except the excluded one
+    - Rejects all requests excepts the approved ones
+    - All requests that match the required conditions
+
+        IP Address for the origin of the request
+        Country for the origin of the request
+        Header Value of the Except the excluded one
+        Rejects all requests excepts the approved ones
+        All requestes that match the required conditions
+
+
+
+    Integrate your AWS WAF Service
+    ALB
+    CF
+    API Gateway
+
+    Doesnt integrate with
+    CLB
+    NLB
+
+    AWS Hypervisor
+    VMM
+
+    
+EC2 Runs on Xen Hypervisor
+
+
+Security Challenges 
+    MITM Attacks - (Man in the middle attack)
+        - between sender and requester 
+    DDoS Attacks
+    Malwares - (codes that intent to destory computer or service)
+    Phishing Attacks
+    Password attacks - (Third party Org/person is cracking your resources or things by hacking assword)
+    Rouge Softwares - (Malware pretend itself behaves as security softwares)
+    Mavetising - (Malicious codes and causes opening many tabs )
+    Drive-by downloads - ()
+    Cross site Scripting (XSS) -
+

@@ -1,0 +1,45 @@
+
+Monitoring changes in the configuration and notified these changes 
+
+    - Scenario is for a Project only RHEL instances allowed to provision, if anyone tries to create a Ubuntu instance, it will be notify plus stop the setup. 
+
+
+    Create a rule
+
+        * IAM/SSM Automation needed 
+
+    IAM - Create a Role - AWS Servvice - EC2 - Permission Policies - AmazonSSMAutomationRole 
+
+    Role Name - Create Role
+
+
+ONce Role Created 
+
+    View Dashboard - Select the Role - Edit the Trust Policies Section - Update Effect ALLOW section as (ssm.amazonaws.com)
+
+
+Config Service
+    (Recorder in the settings MUST be ON while performing the demo  )
+    AWS Config - Rules - Add Rules
+
+    Add AWS Managed rule - Search for Rules (Approved AMIs-by-ID - demo purpose) - Next - Track All the Changes - Add Keys and Parameters 
+        (AMI value given for matching with RHEL instances) - Add Rules 
+
+        If Any action not matching the Rule, will need a remediation 
+
+        * Once if an action remediation set, if any resources not matchign  with the rule it will automatically detect the resource and will take the remidiation action automatically. 
+
+
+    Remediation Action  
+
+    Rules - Remediation Action . Automated / MAnual - Interval set - then set Action 
+
+
+
+    Disable recording once it is Done - (Recording will be charged)
+
+    While completing
+    Delete Remediation action first - then Delete the rule
+
+
+

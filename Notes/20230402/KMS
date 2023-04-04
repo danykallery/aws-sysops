@@ -1,0 +1,15 @@
+Customer master Keys (CMKs)
+    Alias
+    Creation Date
+    Description
+    Key State
+    Key material
+        AWS Managed
+            EC2 - Managed by AWS, S3 
+
+
+    Customer Managed    
+
+
+
+        
