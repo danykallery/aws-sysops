@@ -1,0 +1,19 @@
+
+Monitor HTTP/HTTPS traffic
+
+	WAF monitors Traffic in 3 way
+
+	* CloudFront
+    * 
+
+	LAB - Creating an ALB
+	Create 2 Instances in 2 AZs with HTTP Traffic
+	Loadbalancers - Create - Give all the inputs for the LB - Target Group - Add Targets and Create
+	Target Group  - take DNS entry and check if the URL Accessible
+
+WAF - Create IP Set - IP Set Name - Description - give detail of Public ip
+	Create an ACL
+	Name - Description - Resource Type AWS CloudFront/Regional Resource -  Regional Resources - Select Resource - Rule - Add My Own Rules and Rule Groups - Select IP Set -  IP Address Source IP/IP Addr in Header - Block (Rules) - Allow the apart from the Rule - Set Priority - Review Create A WAF for the ALB Access
+
+
+    Cleaning WAF - ACL Delete Rule - Terminate Instances -  WEB ACL - Delete LB and Delete - Delete Target Group - then Delete Web ACL in AWS WAF 

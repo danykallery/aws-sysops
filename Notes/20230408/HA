@@ -1,0 +1,8 @@
+High Availability
+	UPTime of resources period of time
+
+Redundancy - Multiple AZs (Fail-over)
+ 
+de-coupling - Multi Region failover
+
+Enable Auto-Scaling
