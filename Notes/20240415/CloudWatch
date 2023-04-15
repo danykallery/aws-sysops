@@ -1,0 +1,27 @@
+
+Monitoring following resources
+
+Collect info - Monitor all info (Through Alarms) - Analyzis Alarms - 
+
+
+ClodWtch Monitoring
+    Basic - Every 5 min (free)
+    Detaile - every 1 min (Paid)
+
+Custome metric also supported
+
+Metrics generated can be processing through a dashboard
+
+
+Terminologies
+    Namsspace - CPU, RAM, No of users, IOPS monitoring -- can set under a namespace 
+
+    Metrics - Kind of item that monitrred . Creating metric never charged, data collecting via metric will be charged
+
+    Dimensions - No of users -- Timestamp -- Date - 
+
+    Statistics - 
+
+    Percentiles - 
+    
+    Alarms
